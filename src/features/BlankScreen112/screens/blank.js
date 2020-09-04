@@ -13,7 +13,7 @@ export class _Blank extends React.Component {
 
   state = { }
 
-  render = () => <View style={this.props.themedStyle.container}>Hi Charath! This is the player.</View>;
+  render = () => <View style={this.props.themedStyle.container}>Hi Charath! This is the player. It doesn't support ui-kitten</View>;
   
 }
 
