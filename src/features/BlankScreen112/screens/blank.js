@@ -14,7 +14,6 @@ export class _Blank extends React.Component {
   state = { }
 
   render = () => <View style={this.props.themedStyle.container}>Hi Charath!!</View>;
-  
 }
 
 export default Blank = withStyles(_Blank, theme => ({
