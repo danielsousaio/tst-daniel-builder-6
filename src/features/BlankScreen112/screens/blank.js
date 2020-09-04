@@ -4,7 +4,7 @@ import { withStyles, Text, Button, CheckBox, Radio, Toggle, Icon, Input, Datepic
 import Slider from '@react-native-community/slider';
 import { SlideMenuIcon } from "../../../navigator/slideMenuIcon"
 
-export class _Blank extends React.Component {
+export class Blank extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       headerLeft: <SlideMenuIcon navigationProps={navigation} />,
@@ -13,12 +13,9 @@ export class _Blank extends React.Component {
 
   state = { }
 
-  render = () => <View style={this.props.themedStyle.container}>Hi Charath! This is the player. It doesn't support ui-kitten</View>;
+  render = () => <View>Hi Charath! This is the player working!!</View>;
   
 }
 
-export default Blank = withStyles(_Blank, theme => ({
-  container: {
-    backgroundColor: theme["color-basic-100"]
-  }
-}));
+
+AppRegistry.registerComponent('App', () => Blank);
