@@ -13,7 +13,7 @@ export class _Blank extends React.Component {
 
   state = { }
 
-  render = () => <View style={this.props.themedStyle.container}>Hi Charath!!!!</View>;
+  render = () => <View style={this.props.themedStyle.container}>Hi Charath! This is the player.</View>;
 }
 
 export default Blank = withStyles(_Blank, theme => ({
